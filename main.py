@@ -1,3 +1,1 @@
-name = 'hello world1'
-
-print(name)
+print('hello world')
