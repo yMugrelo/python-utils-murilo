@@ -8,5 +8,13 @@ for i in range(5):
 
 
 print(sorted(place))
-print('still the same result: ')
+print('\nstill the same result: ')
 print(f"{place}\n")
+
+print('reversing and showing how the list change\n ')
+place.sort(reverse=True)
+print(place)
+
+print('turn back to the original\n')
+place.sort(reverse=True)
+print(place)
