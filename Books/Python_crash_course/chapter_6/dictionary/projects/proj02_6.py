@@ -11,4 +11,6 @@ names = {
 
 for i, j in names.items(): 
     print(f"the favorite number of {i} is: {j}")
+
+
     
