@@ -1,15 +1,26 @@
 # Hi there, I'm Murilo Rosa 
 
-Welcome to my GitHub profile! I'm a passionate Python developer and aspiring **MLOps engineer**. I love working on automation, machine learning pipelines, and exploring cutting-edge technologies.
+# Python Utils — Murilo Rosa
 
- About Me
--  I'm focused on **Machine Learning Operations (MLOps)**, automating end-to-end machine learning workflows, and building scalable systems.
--  Currently learning more about **Cloud Engineering**, **CI/CD** pipelines, and **Model Deployment**.
--  I also teach **English** and love helping beginners with the language!
+Welcome to my personal Python utilities repository!
 
- Technologies & Tools
-- **Languages**: Python, SQL
-- **Libraries & Frameworks**: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy
-- **MLOps Tools**: MLflow, DVC, Docker, Kubernetes, Git, GitHub Actions
-- **Cloud**: AWS, GCP, Azure
-- **Others**: FastAPI, Flask, Jenkins, Prometheus, Grafana
+This is a **learning-focused workspace** where I experiment with Python concepts, tools, and scripts — from basic automation and file handling to API integration, data manipulation, and web scraping.
+
+> ⚠ This is **not** a production-level repository. It's a sandbox for learning, prototyping, and testing.
+
+---
+
+##  What you'll find here
+
+-  Practical scripts for automation
+-  File and folder management utilities
+-  API request/response handling
+-  Web scraping experiments
+-  Reusable helper functions
+-  Notes and exercises from **courses and books**
+-  Jupyter Notebooks for testing and exploration
+
+---
+
+
+
