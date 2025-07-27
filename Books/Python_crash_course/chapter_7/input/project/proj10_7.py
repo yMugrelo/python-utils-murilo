@@ -7,7 +7,7 @@ while paz:
     
     place = input(prompt)
     if place == '':
-        print("enter something ")
+        print("\n enter something ")
     if place.lower() == 'quit':
         paz = False
         break
