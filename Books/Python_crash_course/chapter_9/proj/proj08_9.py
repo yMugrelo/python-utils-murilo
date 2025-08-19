@@ -26,30 +26,18 @@ class User:
                 print("enter a valid username and password ")
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name}! Welcome back.\n ")
-
-class Privileges:
-    def __init__(self, privileges = None):
-        if privileges is None:
-            privileges = [
-                "can add post", 
-                "can delete a post", 
-                "can ban user", 
-            ]
-        
-    def show_privileges(self):
-        print("Admin features: ")
-        for i in privileges:
-            print(f"- {i}")
-
-
-            
-        
-
 class Admin(User):
     def __init__(self, first_name, last_name, age, email, location, username, password):
         super().__init__(first_name, last_name, age, email, location, username, password)
-        self.privileges = privileges
-       
+        self.privilages = [
+            "can add a post",
+            "can delete a post", 
+            "can ban user"
+        ]
+    def show_privileges(self):
+        print("admin privileges: ")
+        for i in self.privilages:
+            print(f"- {i}")
     
     def attempt_password_adm(self):
         entered_admin_pass = input("please enter your admin username: ")
@@ -63,9 +51,6 @@ users = [
     User("Bob", "Smith", 35, "bob@email.com", "London", "bobsmith", "abcd"),
     User("Carol", "Silva", 22, "carol@email.com", "São Paulo", "carol22", "senha123")
 ]
-admin.describe_user()
-admin.greet_user()
-admin.privileges.show_privileges()
 
 login_attempt = 1
 while True:
@@ -90,4 +75,6 @@ if login_attempt == 1:
     print(f"you tried just {login_attempt} time")
 else:
     print(f"you tried {login_attempt} times")
+
+
 
